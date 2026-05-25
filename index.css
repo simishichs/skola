@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(226, 162, 43);
+    text-align: center;
+  color: azure;
+
+    
+}
+#slika2{
+    height: auto;
+    width: 300px;
+}
+#slika{
+    height: auto;
+    width: 300px;
+}
+button{
+   background-color: rgb(175, 54, 54);
+    color: aliceblue;
+}
