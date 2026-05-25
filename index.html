@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Za Ocenu</title>
 </head>
 <body>
-    <h1>Zdravo GitHub!</h1>
-    <h2>Neki naslov</h2>
-    <h3>Jos jedan naslov</h3>
-    <p>ovo je moj prvi projekat</p>
+    <h1>Zadatak 1</h1>
+  
+<button onclick="SlikaPsa()">Pas</button>
+<button onclick="SlikaMacke()">Macka</button><br><br>
+  <img id="slika">
+
+<h2>Zadatak 2</h2>
+<img id="slika2">
+<p id="tekst"></p>
+<button onclick="SlikaPsa2()">Pas</button>
+<button onclick="SlikaMacke2()">Macka</button>
+<button onclick="SlikaKrave()">Krava</button>
+<script>
+    function SlikaPsa(){
+    document.getElementById("slika").src="slika1.jpg";
+    }
+    function SlikaMacke(){
+    document.getElementById("slika").src="slika2.jpg";
+    }
+
+    function SlikaPsa2(){
+    document.getElementById("slika2").src="slika1.jpg";
+    document.getElementById("tekst").innerText="Pas je covekov najbolji prijatelj";
+    }
+    function SlikaMacke2(){
+    document.getElementById("slika2").src="slika2.jpg";
+    document.getElementById("tekst").innerText="Mačka voli da se igra";
+    }
+
+function SlikaKrave(){
+    document.getElementById("slika2").src="slika3.jpg";
+    document.getElementById("tekst").innerText="Krava daje mleko";
+    }
+</script>
+
 </body>
 </html>
