@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+     
+     body {
+        text-align: center;
+        background-image: url(restoran.jpg);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        color: black;
+        
+     }
+
+
+
+     .cont {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 20px;
+     }
+     .card {
+        background-color: white;
+        width: 180px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0.0.0.0.1);
+        cursor: pointer;
+        overflow: hidden;
+        transition: 0.3s;
+     }
+
+     .card img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+     }
+
+     .prekrivanje {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+
+ 	background: rgba(0,0,0,0.6);
+
+ 	z-index: -1;
+ }
+    body {
+ 	background: url(restoran.jpg);
+ 	background-size: cover;
+        }
+
+  h1,h2{
+    color: antiquewhite;
+  }
+</style>    
+
+</head>
+<body>
+    <h1>Restoran</h1>
+        <h2>Meni</h2>
+    
+<div class="prekrivanje"></div>
+
+    <div class="cont">            
+     <div class="card">
+    <img src="slika1.jpg" alt="cevapi">
+    <h3>cevapi</h3></div>
+
+     <div class="card">
+    <img src="slika2.jpg" alt="piza">
+    <h3>piza</h3></div>
+
+     <div class="card">
+    <img src="slika3.jpg" alt="raznjici">
+     <h3>piza</h3></div>
+
+  <div class="card">
+    <img src="slika4.jpg" alt="rebarca">
+     <h3>rebarca</h3></div>
+
+     <div class="card">
+     <img src="slika5.jpg" alt="sarma">
+     <h3>sarma</h3></div>
+
+     <div class="card">
+    <img src="slika6.jpg" alt="ustipci">
+     <h3>ustipci</h3></div>
+     
+        <div id="ispis"></div>
+
+    </div>
+    
+</body>
+</html>
